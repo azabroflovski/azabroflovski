@@ -7,20 +7,22 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-  --text-color: #333;
-  --font-family: 'PT Sans Caption';
-  --bg-color: #fff;
-  --code-background: rgba(0,0,0,0.06);
-  --code-hover-background: rgba(0,0,0,0.12);
-  --link-color: #444;
+  --text-color: #111;
+  --font-family: 'Inter';
+  --bg-color: #fefefe;
+  --code-background: rgba(0, 0, 0, 0.06);
+  --code-hover-background: rgba(0, 0, 0, 0.12);
+  --link-color: #111;
+  --border-color: #eee;
+  --border-color-active: #333;
 }
 
 :root {
   font-family: var(--font-family), sans-serif;
-  line-height: 1.5;
+  line-height: 1.58;
   font-weight: 400;
   font-size: 16px;
   color-scheme: light dark;
@@ -35,12 +37,23 @@ body {
   background: var(--bg-color);
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   padding: 0;
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1;
   margin-bottom: 12px;
 }
@@ -83,6 +96,8 @@ a {
     --code-background: rgba(255, 255, 255, 0.1);
     --code-hover-background: rgba(255, 255, 255, 0.18);
     --bg-color: #000;
+    --border-color: #222;
+    --border-color-active: #fff;
   }
 
   main section:not(:last-child) {
@@ -90,4 +105,3 @@ a {
   }
 }
 </style>
-
