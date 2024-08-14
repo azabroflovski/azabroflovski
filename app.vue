@@ -11,7 +11,7 @@
 
 :root {
   --text-color: #111;
-  --font-family: 'Inter';
+  --font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
   --bg-color: #fefefe;
   --code-background: rgba(0, 0, 0, 0.06);
   --code-hover-background: rgba(0, 0, 0, 0.12);
@@ -22,7 +22,7 @@
 
 :root {
   font-family: var(--font-family), sans-serif;
-  line-height: 1.58;
+  line-height: 1.7;
   font-weight: 400;
   font-size: 16px;
   color-scheme: light dark;
@@ -91,17 +91,26 @@ a {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: rgba(255, 255, 255, 0.77);
+    --text-color: #a3a3a3;
     --link-color: #fff;
     --code-background: rgba(255, 255, 255, 0.1);
     --code-hover-background: rgba(255, 255, 255, 0.18);
-    --bg-color: #000;
+    --bg-color: #050505;
     --border-color: #222;
     --border-color-active: #fff;
   }
 
   main section:not(:last-child) {
     border-bottom-color: rgba(255, 255, 255, 0.07);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #f5f5f5;
   }
 }
 </style>

@@ -1,15 +1,15 @@
 <script lang="ts" setup>
 const navigation = [
   {
-    label: 'About me',
+    label: 'about me',
     name: 'index'
   },
   {
-    label: 'Projects',
+    label: 'projects',
     name: 'projects'
   },
   {
-    label: 'Posts',
+    label: 'posts',
     name: 'posts',
   }
 ]
@@ -27,17 +27,16 @@ const navigation = [
 
 <style>
 nav {
-  display: flex;
   border-bottom: 1px solid var(--border-color);
+  padding-bottom: 7px;
 }
 
 nav a {
   text-decoration: none;
-  border-bottom: 2px solid transparent;
+  border-bottom: 1px solid transparent;
   opacity: 0.6;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
   transition: 200ms ease;
-  font-weight: bold;
 }
 
 nav a:hover {
@@ -49,7 +48,7 @@ nav a:not(:last-child) {
 }
 
 nav a.active {
-  border-color: var(--border-color-active);
+  border-color: var(--border-active-color);
   opacity: 1;
 }
 </style>
