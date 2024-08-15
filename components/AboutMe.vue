@@ -5,8 +5,8 @@ const { greetings, updateGreetings } = useGreetings()
 </script>
 
 <template>
-  <main class="content">
-    <section class="text-gray-400">
+  <main class="text-base prose @light:prose-truegray">
+    <section>
       <h2 @click="updateGreetings()">{{ greetings }}, {guest}</h2>
       <p>
         Feel free to use this page as my CV.

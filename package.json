@@ -10,7 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@unocss/reset": "^0.62.1",
     "nuxt": "^3.12.4",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@unocss/nuxt": "^0.62.1",
+    "@unocss/preset-typography": "^0.62.1",
+    "unocss": "^0.62.1"
   }
 }

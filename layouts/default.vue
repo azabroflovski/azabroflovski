@@ -1,33 +1,10 @@
 <template>
-  <div class="l-default">
+  <div class="mx-auto max-w-70ch pt-6 px-4">
     <Author />
-    <Navigation />
+    <Navigation class="mt-6" />
 
-    <div class="l-content">
+    <div>
       <slot />
     </div>
   </div>
 </template>
-
-<style>
-.l-default {
-  max-width: 70ch;
-  margin-inline: auto;
-  padding: 2vh;
-}
-
-.l-content {
-  margin-top: 34px;
-}
-
-.l-gradient {
-  height: 40px;
-  width: 80%;
-  position: fixed;
-  left: 20%;
-  top: 200px;
-  z-index: 10;
-
-  filter: blur(350px);
-}
-</style>
