@@ -40,7 +40,7 @@ const { greetings, updateGreetings } = useGreetings()
         I usually play mid on Invoker (30 tier).
       </p>
 
-      <a href="https://github.com/azabroflovski.uz" target="_blank">GitHub</a>
+      <a href="https://github.com/azabroflovski" target="_blank">GitHub</a>
       &nbsp;
       <a href="https://www.linkedin.com/in/azabroflovski" target="_blank">Linkedin</a>
       &nbsp;

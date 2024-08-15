@@ -5,12 +5,12 @@ const navigation = [
     name: 'index'
   },
   {
-    label: 'Posts',
-    name: 'posts',
-  },
-  {
     label: 'Projects',
     name: 'projects'
+  },
+  {
+    label: 'Posts',
+    name: 'posts',
   },
 ]
 </script>
