@@ -10,6 +10,10 @@ defineProps<{
       {{ project.title }}
     </div>
 
+    <div class="text-xs text-blue mb-1">
+      {{ project.url }}
+    </div>
+
     <div class="text-truegray text-sm">
       {{ project.description }}
     </div>
