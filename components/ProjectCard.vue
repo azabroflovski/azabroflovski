@@ -22,7 +22,7 @@ defineProps<{
       </div>
     </div>
 
-     <div class="text-gray-800 @dark:text-gray text-base">
+     <div class="text-gray-800 @dark:text-gray sm:text-base text-sm">
        {{ project.description }}
      </div>
 
@@ -37,7 +37,7 @@ defineProps<{
 <style>
 .project {
   display: block;
-  border: 1px solid #eee;
+  border: 2px solid #eee;
   padding: 16px;
   border-radius: 16px;
   transition: 250ms ease;
