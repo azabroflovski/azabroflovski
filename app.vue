@@ -4,12 +4,14 @@ import '@unocss/reset/sanitize/assets.css'
 </script>
 
 <template>
-  <NuxtLoadingIndicator />
-  <NuxtLayout>
-    <KeepAlive>
-      <NuxtPage />
-    </KeepAlive>
-  </NuxtLayout>
+  <div class="h-screen light:bg-white dark:bg-black">
+    <NuxtLoadingIndicator />
+    <NuxtLayout>
+      <KeepAlive>
+        <NuxtPage />
+      </KeepAlive>
+    </NuxtLayout>
+  </div>
 </template>
 
 <style>
@@ -21,6 +23,7 @@ import '@unocss/reset/sanitize/assets.css'
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: theme('col');
 }
 
 body {
@@ -43,5 +46,9 @@ body {
 .page-leave-to {
   opacity: 0;
   transform: translateY(10px);
+}
+
+body {
+  overflow-y: scroll;
 }
 </style>

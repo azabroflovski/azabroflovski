@@ -3,14 +3,14 @@
     <img
         src="/logo.jpg"
         alt="snake logo"
-        class="w-56px b-rd-50% mr-16px"
+        class="w-66px b-rd-50% mr-16px"
     >
     <div>
-      <div class="text-lg font-500">
+      <div class="text-xl text-dark @dark:text-light font-500">
         Aza Broflovski
       </div>
-      <div class="sm:text-sm text-xs text-gray-400">
-        Software developer sunny from Tashkent ☀️
+      <div class="sm:text-base text-xs text-gray-400">
+        Software developer from sunny Tashkent ☀️
       </div>
     </div>
   </div>

@@ -22,9 +22,9 @@ const navigation = [
         :key="nav.name"
         :to="nav"
         :class="{
-          'text-blue! border-b-blue!': nav.name === $route.name
+          'text-blue-500! border-b-blue!': nav.name === $route.name
         }"
-        class="mr-lg text-white border-b-1 border-b-solid border-b-transparent pb-1"
+        class="mr-lg text-gray border-b-2 font-500 border-b-solid border-b-transparent pb-1 text-lg"
     >
       {{ nav.label }}
     </NuxtLink>
