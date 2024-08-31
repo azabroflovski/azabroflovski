@@ -25,7 +25,13 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
-  modules: [
-    '@unocss/nuxt',
-  ],
+  modules: ['@unocss/nuxt', '@nuxt/content'],
+  content: {
+    highlight: {
+      theme: {
+        default: "one-dark-pro",
+        dark: "github-dark-default",
+      },
+    },
+  }
 })

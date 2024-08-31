@@ -49,8 +49,8 @@ defineProps<{
 }
 
 .project svg {
-  width: 44px;
-  height: 44px;
+  width: 38px;
+  height: 38px;
 }
 
 .project:hover {

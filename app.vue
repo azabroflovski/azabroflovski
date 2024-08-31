@@ -4,7 +4,7 @@ import '@unocss/reset/sanitize/assets.css'
 </script>
 
 <template>
-  <div class="h-screen light:bg-white dark:bg-black">
+  <div class="min-h-screen @light:bg-white @dark:bg-black">
     <NuxtLoadingIndicator />
     <NuxtLayout>
       <KeepAlive>
@@ -23,7 +23,7 @@ import '@unocss/reset/sanitize/assets.css'
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: theme('col');
+  scroll-behavior: smooth;
 }
 
 body {
