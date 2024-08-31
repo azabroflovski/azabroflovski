@@ -1,33 +1,37 @@
 <script lang="ts" setup>
 const navigation = [
   {
-    label: 'About me',
+    label: 'ABOUT ME',
     name: 'index'
   },
   {
-    label: 'Projects',
+    label: 'PROJECTS',
     name: 'projects'
   },
   {
-    label: 'Posts',
+    label: 'POSTS',
     name: 'posts',
   },
 ]
 </script>
 
 <template>
-  <nav class="flex items-center">
+  <nav class="flex items-center relative">
     <NuxtLink
         v-for="nav in navigation"
         :key="nav.name"
         :to="nav"
+        class="mr-7 text-gray text-base font-bold pb-1.6 border-b-2 border-b-solid border-b-transparent relative z-10"
         :class="{
-          'text-white! border-blue-500! bg-blue-500': nav.name === $route.name
+          'border-b-dark! @dark:border-b-light! @dark:text-white! text-dark!': nav.name === $route.name
         }"
-        class="mr-lg text-gray border-2 font-bold border-solid border-gray-200 @dark:border-dark-5 text-base rounded-2xl px-4 py-1"
+        style="transition: 200ms ease"
     >
       {{ nav.label }}
     </NuxtLink>
+    <div class="absolute border-b-1 border-b-gray-200 @dark:border-b-dark border-b-solid bottom-0 w-100% z-1">
+
+    </div>
   </nav>
 </template>
 

@@ -7,16 +7,16 @@ defineProps<{
 <template>
   <a class="project text-dark @dark:text-light" :href="project.url" target="_blank">
     <div class="flex items-center mb-2">
-      <div v-html="project.icon" class="mr-4 text-gray">
+      <div v-html="project.icon" class="mr-4 text-dark @dark:text-light">
 
       </div>
 
       <div>
-        <div class="mb-1">
+        <div class="font-500">
           {{ project.title }}
         </div>
 
-        <div class="text-xs text-blue-500 mb-1">
+        <div class="text-xs text-gray mb-1">
           {{ project.url }}
         </div>
       </div>
@@ -26,7 +26,7 @@ defineProps<{
        {{ project.description }}
      </div>
 
-     <div class="text-gray @dark:text-gray-600 font-bold mt-2 project__tags">
+     <div class="text-black @dark:text-gray-600 font-bold mt-2 project__tags">
       <span v-for="item in project.technologies" :key="item" class="text-xs">
         {{ item }} <b>&nbsp; · &nbsp;</b>
       </span>
@@ -37,7 +37,7 @@ defineProps<{
 <style>
 .project {
   display: block;
-  border: 2px solid #eee;
+  border: 1px solid #eee;
   padding: 16px;
   border-radius: 16px;
   transition: 250ms ease;

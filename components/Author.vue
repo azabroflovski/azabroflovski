@@ -3,10 +3,10 @@
     <img
         src="/logo.jpg"
         alt="snake logo"
-        class="sm:w-66px w-50px b-rd-50% mr-16px"
+        class="sm:w-66px w-50px b-rd-50% mr-16px rounded-50% @light:border-solid @light:border-2 border-gray-100"
     >
     <div>
-      <div class="text-xl text-dark @dark:text-light font-500">
+      <div class="text-xl text-dark @dark:text-light font-bold">
         Aza Broflovski
       </div>
       <div class="sm:text-base text-sm text-gray-400">
