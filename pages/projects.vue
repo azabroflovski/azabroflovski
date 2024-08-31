@@ -5,14 +5,14 @@ const projects = [
     description: '3D map of villas, apartment complexes and condos in Dubai. Users can view the interiors and exteriors of the property in detail.',
     url: 'https://axmap.ae',
     icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m12 1.842l7 4.084v5.401c1.03.452 1.927 1.018 2.61 1.687c.828.81 1.39 1.825 1.39 2.986c0 1.963-1.566 3.472-3.482 4.43C17.542 21.418 14.883 22 12 22s-5.543-.582-7.518-1.57C2.566 19.472 1 17.964 1 16c0-1.161.562-2.175 1.39-2.986c.683-.67 1.58-1.235 2.61-1.687V5.926zM5 13.56a5.8 5.8 0 0 0-1.212.884C3.224 14.996 3 15.525 3 16c0 .798.673 1.79 2.376 2.641C7.02 19.463 9.36 20 12 20s4.98-.537 6.624-1.359C20.327 17.79 21 16.798 21 16c0-.475-.224-1.004-.788-1.557A5.8 5.8 0 0 0 19 13.56v.515l-7 4.084l-7-4.084zm12-.633V8.365l-4 2.223v4.671zm-6 2.333v-4.67L7 8.364v4.56zM7.876 6.563L12 8.856l4.124-2.293L12 4.158z"/></svg>',
-    technologies: ['TypeScript', 'WebGL', 'Three', 'Vue', 'Node.js', 'Python', 'Go', 'PostgreSQL', 'Redis']
+    technologies: ['TypeScript', 'WebGL', 'Three', 'Vue', 'Node.js', 'Docker', 'Python', 'Go', 'PostgreSQL', 'Redis']
   },
   {
     title: 'Bulavka',
     description: 'An e-commerce platform in Uzbekistan (marketplace) with over 100k users and 600+ sellers.',
     url: 'https://bulavka.uz',
     icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>',
-    technologies: ['Scala', 'Go', 'PHP', 'TypeScript', 'MariaDB', 'Elasticsearch']
+    technologies: ['Scala', 'Go', 'PHP', 'TypeScript', 'Vue', 'Docker', 'MariaDB', 'Elasticsearch']
   },
   {
     title: 'ExpoClean',
@@ -26,14 +26,14 @@ const projects = [
     description: 'Personal finance tracking app, available on web, android and iOS',
     url: 'https://networth.uz',
     icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M7.755 13.38v6.83a1.54 1.54 0 0 1-1.54 1.54h-1.81a1.54 1.54 0 0 1-1.55-1.54v-6.83a1.54 1.54 0 0 1 1.55-1.55h1.81a1.54 1.54 0 0 1 1.54 1.55m6.7-9.58v16.41a1.54 1.54 0 0 1-1.55 1.54h-1.81a1.55 1.55 0 0 1-1.55-1.54V3.8a1.56 1.56 0 0 1 1.55-1.55h1.81a1.55 1.55 0 0 1 1.55 1.55m6.69 5.18v11.23a1.54 1.54 0 0 1-1.54 1.54h-1.81a1.54 1.54 0 0 1-1.55-1.54V8.98a1.55 1.55 0 0 1 1.55-1.55h1.85a1.55 1.55 0 0 1 1.5 1.55"/></svg>',
-    technologies: ['TypeScript', 'Bun', 'PHP', 'PostgreSQL', 'Laravel']
+    technologies: ['TypeScript', 'Bun', 'PHP', 'Docker', 'PostgreSQL', 'Laravel']
   },
   {
     title: 'ezd',
     description: 'Bot for downloading content from popular platforms like TikTok, Instagram, etc.',
     url: 'https://t.me/ezd_robot',
     icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"/><path fill="currentColor" d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06z"/></svg>',
-    technologies: ['TypeScript', 'Bun', 'Redis', 'PostgreSQL']
+    technologies: ['TypeScript', 'Bun', 'Redis', 'Docker', 'PostgreSQL']
   },
   {
     title: 'FastNews',

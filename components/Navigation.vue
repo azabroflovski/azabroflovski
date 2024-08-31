@@ -21,7 +21,7 @@ const navigation = [
         v-for="nav in navigation"
         :key="nav.name"
         :to="nav"
-        class="mr-7 text-gray text-base font-bold pb-1.6 border-b-2 border-b-solid border-b-transparent relative z-10"
+        class="mr-7 text-gray text-sm font-bold pb-1.6 border-b-2 border-b-solid border-b-transparent relative z-10"
         :class="{
           'border-b-dark! @dark:border-b-light! @dark:text-white! text-dark!': nav.name === $route.name
         }"

@@ -28,7 +28,7 @@ defineProps<{
 
      <div class="text-black @dark:text-gray-600 font-bold mt-2 project__tags">
       <span v-for="item in project.technologies" :key="item" class="text-xs">
-        {{ item }} <b>&nbsp; · &nbsp;</b>
+        {{ item }}<b>&nbsp; · &nbsp;</b>
       </span>
      </div>
   </a>
